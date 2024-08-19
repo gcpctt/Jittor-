@@ -6,7 +6,7 @@
 
 # Train
 运行train.sh脚本，需要给出5个参数，第一个是TRAIN_BATCH_SIZE，第二个是MAX_TRAIN_STEPS，第三个是RANK(文本指导分数)，第四个是GPU_VISIBLE，第五个是METHOD
-生成的训练权重保存在"checkpoint/style_{METHOD}_{TRAIN_BATCH_SIZE}_{MAX_TRAIN_STEPS}_{RANK}"中。
+生成的训练权重保存在"checkpoint/style_METHOD_TRAIN_BATCH_SIZE_MAX_TRAIN_STEPS_RANK"中。
 
 # Test
-运行test.sh脚本。其中的output参数是图片输出目录，style_path是权重加载路径。
+运行test.sh脚本。其中的output参数是图片输出目录，style_path参数是权重加载路径。
